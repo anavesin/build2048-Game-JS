@@ -26,6 +26,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    align-items: center;
 }
 
 .grid {
@@ -67,4 +68,19 @@ h2 {
 
 .score-title {
     font-size: 16px;
+}
+/* Add to style.css */
+#reset-btn {
+    margin-bottom: 15px;
+    padding: 10px 24px;
+    font-size: 18px;
+    background-color: #8f7a66;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#reset-btn:hover {
+    background-color: #a0866c;
 }
