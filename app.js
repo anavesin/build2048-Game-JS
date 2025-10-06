@@ -228,6 +228,11 @@ document.addEventListener("DOMContentLoaded", () => {
             else if (squares[i].innerHTML == 2048) squares[i].style.backgroundColor = "#d7d4f0"
         }
     }
+    // Add to app.js
+document.getElementById('reset-btn').addEventListener('click', function() {
+    // Call your reset/restart game function here
+    location.reload(); // Simple reload for now
+});
     addColours()
 
     let myTimer = setInterval(addColours, 50)
